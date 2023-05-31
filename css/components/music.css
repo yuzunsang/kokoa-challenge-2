@@ -18,10 +18,10 @@
 }
 
 .music__album--tiny {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    border-radius: 3.5px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 4px;
     margin-right: 25px;
 }
 
@@ -39,4 +39,8 @@
 
 .music__artist {
     opacity: 0.7;
+}
+
+ul {
+    padding: 30px 0;
 }
