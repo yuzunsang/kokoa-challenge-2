@@ -17,12 +17,26 @@
     margin-right: 25px;
 }
 
+.music__album--tiny {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 3.5px;
+    margin-right: 25px;
+}
+
 .music__title {
     font-weight: 600;
     font-size: 40px;
     line-height: 80%;
 }
 
+.music__title--tiny {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 80%;
+}
+
 .music__artist {
-    opacity: 0.8;
+    opacity: 0.7;
 }
