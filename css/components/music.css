@@ -1,0 +1,28 @@
+.music {
+    display: flex;
+    margin: 25px 0;
+}
+
+.music__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.music__album {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.music__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 80%;
+}
+
+.music__artist {
+    opacity: 0.8;
+}
