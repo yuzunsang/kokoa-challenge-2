@@ -1,0 +1,29 @@
+.ctrl-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctrl-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctrl-btn button:first-child {
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    border-width: 2px 2px 5px 2px;
+}
+
+.ctrl-btn button .fa-play-circle {
+    margin-right: 15px;
+}
+
+.ctrl-btn button:nth-child(2),
+.ctrl-btn button:nth-child(3) {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border-width: 2px 2px 5px 2px;
+}

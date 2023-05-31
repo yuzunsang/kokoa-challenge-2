@@ -1,6 +1,7 @@
 /* components */
 @import "components/header.css";
 @import "components/music.css";
+@import "components/ctrl-btn.css";
 
 html {
     height: 100%;
